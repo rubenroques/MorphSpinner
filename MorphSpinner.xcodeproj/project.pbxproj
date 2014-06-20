@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE28EB7F1954A62F006A4AEB /* blured.png in Resources */ = {isa = PBXBuildFile; fileRef = CE28EB7E1954A62F006A4AEB /* blured.png */; };
+		CE28EB811954A95B006A4AEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE28EB801954A95B006A4AEB /* Main.storyboard */; };
+		CEDCDA18195469C300D584F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDCDA17195469C300D584F9 /* AppDelegate.swift */; };
+		CEDCDA1A195469C300D584F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDCDA19195469C300D584F9 /* ViewController.swift */; };
+		CEDCDA1F195469C300D584F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDCDA1E195469C300D584F9 /* Images.xcassets */; };
+		CEDCDA2B195469C400D584F9 /* MorphSpinnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDCDA2A195469C400D584F9 /* MorphSpinnerTests.swift */; };
+		CEDCDA35195469F400D584F9 /* MorphSpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDCDA34195469F400D584F9 /* MorphSpinnerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEDCDA25195469C300D584F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEDCDA0A195469C200D584F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEDCDA11195469C200D584F9;
+			remoteInfo = MorphSpinner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE28EB7E1954A62F006A4AEB /* blured.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blured.png; sourceTree = "<group>"; };
+		CE28EB801954A95B006A4AEB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CEDCDA12195469C300D584F9 /* MorphSpinner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MorphSpinner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDCDA16195469C300D584F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDCDA17195469C300D584F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEDCDA19195469C300D584F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEDCDA1E195469C300D584F9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CEDCDA24195469C300D584F9 /* MorphSpinnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MorphSpinnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDCDA29195469C300D584F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDCDA2A195469C400D584F9 /* MorphSpinnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphSpinnerTests.swift; sourceTree = "<group>"; };
+		CEDCDA34195469F400D584F9 /* MorphSpinnerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MorphSpinnerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEDCDA0F195469C200D584F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDCDA21195469C300D584F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEDCDA09195469C200D584F9 = {
+			isa = PBXGroup;
+			children = (
+				CEDCDA14195469C300D584F9 /* MorphSpinner */,
+				CEDCDA27195469C300D584F9 /* MorphSpinnerTests */,
+				CEDCDA13195469C300D584F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEDCDA13195469C300D584F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEDCDA12195469C300D584F9 /* MorphSpinner.app */,
+				CEDCDA24195469C300D584F9 /* MorphSpinnerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEDCDA14195469C300D584F9 /* MorphSpinner */ = {
+			isa = PBXGroup;
+			children = (
+				CEDCDA17195469C300D584F9 /* AppDelegate.swift */,
+				CEDCDA19195469C300D584F9 /* ViewController.swift */,
+				CEDCDA34195469F400D584F9 /* MorphSpinnerView.swift */,
+				CE28EB801954A95B006A4AEB /* Main.storyboard */,
+				CE28EB7E1954A62F006A4AEB /* blured.png */,
+				CEDCDA1E195469C300D584F9 /* Images.xcassets */,
+				CEDCDA15195469C300D584F9 /* Supporting Files */,
+			);
+			path = MorphSpinner;
+			sourceTree = "<group>";
+		};
+		CEDCDA15195469C300D584F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEDCDA16195469C300D584F9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEDCDA27195469C300D584F9 /* MorphSpinnerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEDCDA2A195469C400D584F9 /* MorphSpinnerTests.swift */,
+				CEDCDA28195469C300D584F9 /* Supporting Files */,
+			);
+			path = MorphSpinnerTests;
+			sourceTree = "<group>";
+		};
+		CEDCDA28195469C300D584F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEDCDA29195469C300D584F9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEDCDA11195469C200D584F9 /* MorphSpinner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDCDA2E195469C400D584F9 /* Build configuration list for PBXNativeTarget "MorphSpinner" */;
+			buildPhases = (
+				CEDCDA0E195469C200D584F9 /* Sources */,
+				CEDCDA0F195469C200D584F9 /* Frameworks */,
+				CEDCDA10195469C200D584F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MorphSpinner;
+			productName = MorphSpinner;
+			productReference = CEDCDA12195469C300D584F9 /* MorphSpinner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEDCDA23195469C300D584F9 /* MorphSpinnerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDCDA31195469C400D584F9 /* Build configuration list for PBXNativeTarget "MorphSpinnerTests" */;
+			buildPhases = (
+				CEDCDA20195469C300D584F9 /* Sources */,
+				CEDCDA21195469C300D584F9 /* Frameworks */,
+				CEDCDA22195469C300D584F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEDCDA26195469C300D584F9 /* PBXTargetDependency */,
+			);
+			name = MorphSpinnerTests;
+			productName = MorphSpinnerTests;
+			productReference = CEDCDA24195469C300D584F9 /* MorphSpinnerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEDCDA0A195469C200D584F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = rrocks;
+				TargetAttributes = {
+					CEDCDA11195469C200D584F9 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					CEDCDA23195469C300D584F9 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = CEDCDA11195469C200D584F9;
+					};
+				};
+			};
+			buildConfigurationList = CEDCDA0D195469C200D584F9 /* Build configuration list for PBXProject "MorphSpinner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEDCDA09195469C200D584F9;
+			productRefGroup = CEDCDA13195469C300D584F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEDCDA11195469C200D584F9 /* MorphSpinner */,
+				CEDCDA23195469C300D584F9 /* MorphSpinnerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEDCDA10195469C200D584F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE28EB811954A95B006A4AEB /* Main.storyboard in Resources */,
+				CE28EB7F1954A62F006A4AEB /* blured.png in Resources */,
+				CEDCDA1F195469C300D584F9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDCDA22195469C300D584F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEDCDA0E195469C200D584F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDCDA1A195469C300D584F9 /* ViewController.swift in Sources */,
+				CEDCDA18195469C300D584F9 /* AppDelegate.swift in Sources */,
+				CEDCDA35195469F400D584F9 /* MorphSpinnerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDCDA20195469C300D584F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDCDA2B195469C400D584F9 /* MorphSpinnerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEDCDA26195469C300D584F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEDCDA11195469C200D584F9 /* MorphSpinner */;
+			targetProxy = CEDCDA25195469C300D584F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CEDCDA2C195469C400D584F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEDCDA2D195469C400D584F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEDCDA2F195469C400D584F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = MorphSpinner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEDCDA30195469C400D584F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = MorphSpinner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CEDCDA32195469C400D584F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MorphSpinner.app/MorphSpinner";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MorphSpinnerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		CEDCDA33195469C400D584F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MorphSpinner.app/MorphSpinner";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MorphSpinnerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEDCDA0D195469C200D584F9 /* Build configuration list for PBXProject "MorphSpinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDCDA2C195469C400D584F9 /* Debug */,
+				CEDCDA2D195469C400D584F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDCDA2E195469C400D584F9 /* Build configuration list for PBXNativeTarget "MorphSpinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDCDA2F195469C400D584F9 /* Debug */,
+				CEDCDA30195469C400D584F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDCDA31195469C400D584F9 /* Build configuration list for PBXNativeTarget "MorphSpinnerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDCDA32195469C400D584F9 /* Debug */,
+				CEDCDA33195469C400D584F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEDCDA0A195469C200D584F9 /* Project object */;
+}
